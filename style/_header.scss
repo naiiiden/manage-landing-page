@@ -1,0 +1,41 @@
+header {
+    padding: 2.5rem 1.5rem;
+
+    .logo_button_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hamburger {
+            border: none;
+            background: transparent;
+        }
+    }
+
+    nav {
+        .nav-ul {
+            list-style-type: none;
+            display: none;
+
+            &.show {
+                padding-top: 1.5rem; //i came up with a solution by adding padding-top
+                border: 1px solid red;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+            }
+
+            a {
+                cursor: pointer;
+                text-decoration: none;
+
+                &.get_started_link {
+                    display: none;
+                    //even when element has "display:none", for some reason the gap property still takes up space :thinking:
+                }
+            }
+        }
+    }
+}

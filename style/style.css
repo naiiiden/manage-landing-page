@@ -18,4 +18,56 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+header {
+  padding: 2.5rem 1.5rem;
+}
+
+header .logo_button_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo_button_wrapper .hamburger {
+  border: none;
+  background: transparent;
+}
+
+header nav .nav-ul {
+  list-style-type: none;
+  display: none;
+}
+
+header nav .nav-ul.show {
+  padding-top: 1.5rem;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+}
+
+header nav .nav-ul a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header nav .nav-ul a.get_started_link {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
