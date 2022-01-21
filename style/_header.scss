@@ -19,22 +19,24 @@ header {
             display: none;
 
             &.show {
-                padding-top: 1.5rem; //i came up with a solution by adding padding-top
-                border: 1px solid red;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 2rem;
+                border-radius: .25rem;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 1.5rem;
+                gap: 2rem;
+
+                .invisible_on_mobile {
+                    display: none;
+                }
             }
 
             a {
                 cursor: pointer;
                 text-decoration: none;
-
-                &.get_started_link {
-                    display: none;
-                    //even when element has "display:none", for some reason the gap property still takes up space :thinking:
-                }
+                color: $dark-blue;
+                font-weight: 700;
             }
         }
     }
