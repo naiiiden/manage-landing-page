@@ -426,4 +426,180 @@ main .text_wrapper .get_started_link:hover {
     width: 70%;
   }
 }
+
+.slider {
+  padding: 1.5rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.slider h2 {
+  color: #242d52;
+  font-size: 1.75rem;
+}
+
+.slider .slide {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.slider .slide .avatar {
+  width: 6rem;
+}
+
+.slider .slide .name {
+  color: #242d52;
+  font-weight: 700;
+}
+
+.slider .slide p {
+  color: #9095a7;
+}
+
+.slider .dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider .dots .dot {
+  cursor: pointer;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: #bbb;
+  color: #bbb;
+  border-radius: 50%;
+}
+
+.slider .dots .dot.active, .slider .dots .dot:hover {
+  background: #717171;
+}
+
+.slider .get_started_link {
+  text-decoration: none;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  background: #f25f3a;
+  padding: .75rem 1.5rem;
+  border-radius: 3rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+.slider .get_started_link:hover {
+  opacity: 70%;
+}
+
+.desktop_slider {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile_slider {
+    display: none;
+  }
+  .desktop_slider {
+    padding: 3rem 9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5rem;
+  }
+  .desktop_slider h2 {
+    color: #242d52;
+    font-size: 2rem;
+  }
+  .desktop_slider .slides_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 5rem;
+    width: 100%;
+  }
+  .desktop_slider .slide_container {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.5rem;
+    width: 20rem;
+    text-align: center;
+  }
+  .desktop_slider .slide_container .avatar {
+    width: 5rem;
+  }
+  .desktop_slider .slide_container .name {
+    color: #242d52;
+    font-weight: 700;
+  }
+  .desktop_slider .slide_container p {
+    color: #9095a7;
+  }
+  .desktop_slider .get_started_link {
+    text-decoration: none;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    background: #f25f3a;
+    padding: .75rem 1.5rem;
+    border-radius: 3rem;
+    color: #fff;
+    font-weight: 700;
+  }
+  .desktop_slider .get_started_link:hover {
+    opacity: 70%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .desktop_slider h2 {
+    font-size: 2.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
