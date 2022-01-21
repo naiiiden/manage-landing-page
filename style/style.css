@@ -602,4 +602,81 @@ main .text_wrapper .get_started_link:hover {
     font-size: 2.5rem;
   }
 }
+
+.simplify {
+  background: #f25f3a;
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  position: relative;
+  background-image: url("../images/bg-simplify-section-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 4.5rem;
+  background-position: center left;
+}
+
+.simplify .mobile_simplify {
+  display: none;
+}
+
+.simplify h2 {
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+.simplify a {
+  cursor: pointer;
+  background: #fff;
+  color: #f25f3a;
+  font-size: .8rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .75rem 1.25rem;
+  border-radius: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .simplify {
+    padding: 6rem 9rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../images/bg-simplify-section-desktop.svg");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position-x: 15rem;
+  }
+  .simplify h2 {
+    font-size: 2.5rem;
+    width: 55%;
+    text-align: start;
+    z-index: 1;
+  }
+  .simplify a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .simplify h2 {
+    width: 35%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

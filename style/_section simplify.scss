@@ -1,0 +1,69 @@
+.simplify {
+    background: $bright-red;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+    position: relative;
+
+    background-image: url("../images/bg-simplify-section-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 4.5rem;
+    background-position: center left;
+
+    .mobile_simplify {
+        display: none;
+    }
+
+    h2 {
+        color: #fff;
+        font-size: 1.75rem;
+    }
+
+    a {
+        cursor: pointer;
+        background: #fff;
+        color: $bright-red;
+        font-size: .8rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: .75rem 1.25rem;
+        border-radius: 3rem;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .simplify {
+        padding: 6rem 9rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        background-image: url("../images/bg-simplify-section-desktop.svg");
+        background-size: 100% 100%;
+        background-size: cover;
+        background-position-x: 15rem;
+
+        h2 {
+            font-size: 2.5rem;
+            width: 55%;
+            text-align: start;
+            z-index: 1;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .simplify {
+        h2 {
+            width: 35%;
+        }
+    }
+}
