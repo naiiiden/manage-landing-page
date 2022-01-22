@@ -46,6 +46,7 @@ email.addEventListener("input", function (event) {
     if (email.validity.valid) {
         error.textContent = "";
         error.className = "error";
+        email.style.border = "1px solid rgb(29, 30, 37)";
     } else {
         showError;
     }

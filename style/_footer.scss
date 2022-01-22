@@ -3,6 +3,7 @@ footer {
     background: $very-dark-blue;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 3rem;
 
     .form_copyright_wrapper {
@@ -21,9 +22,10 @@ footer {
         justify-content: space-between;
         gap: .5rem;
         justify-content: center;
-        
+
         span {
             position: absolute;
+            margin: auto;
             bottom: 0;
             color: $bright-red;
             font-style: italic;
@@ -32,6 +34,7 @@ footer {
 
         .form_container {
             display: flex;
+            // justify-content: center;
             gap: .5rem;
             margin-bottom: auto;
         }

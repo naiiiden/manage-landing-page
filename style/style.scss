@@ -20,11 +20,22 @@ body {
     font-size: 16px;
     position: relative;
     overflow-x: hidden;
+    background-image: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position-x: 5rem;
+    background-position-y: -1rem;
+    background-size: 100%;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-image: none;
+    }
 }
 
 @import "./header";
