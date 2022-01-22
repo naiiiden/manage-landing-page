@@ -37,3 +37,35 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "flex";
     dots[slideIndex-1].className += " active";
 }
+
+const form = document.getElementsByTagName("form")[0];
+const email = document.getElementById("email");
+const error = document.querySelector(".error");
+
+email.addEventListener("input", function (event) {
+    if (email.validity.valid) {
+        error.textContent = "";
+        error.className = "error";
+    } else {
+        showError;
+    }
+});
+
+form.addEventListener("submit", function (event) {
+    if (!email.validity.valid) {
+        showError();
+    }
+    event.preventDefault();
+});
+
+function showError() {
+    if (email.validity.valueMissing) {
+        error.textContent = "You need to enter an email address.";
+        email.style.border = "1px solid rgb(242, 95, 58)";
+    } else if (email.validity.typeMismatch) {
+        error.textContent = "Please provide a valid email.";
+        email.style.border = "1px solid rgb(242, 95, 58)";
+    }
+
+    error.className = "error";
+}

@@ -711,15 +711,38 @@ footer .form_copyright_wrapper p {
 }
 
 footer form {
-  height: 4.5rem;
+  height: 5rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: .5rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+footer form span {
+  position: absolute;
+  bottom: 0;
+  color: #f25f3a;
+  font-style: italic;
+  font-size: .9rem;
+}
+
+footer form .form_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .5rem;
+  margin-bottom: auto;
 }
 
 footer form .email {
@@ -728,6 +751,7 @@ footer form .email {
   border-radius: 2rem;
   border: none;
   font-family: inherit;
+  border: 1px solid #1d1e25;
 }
 
 footer form .submit {
