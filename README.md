@@ -9,6 +9,8 @@
 ![slider](/design/slider.png)
 ### Email Validation
 ![validation](/design/validation.png)
+### Desktop Design
+![desktop](/design/desktop.png)
 
 ## Live Preview
 https://naiiiden.github.io/manage-landing-page/
