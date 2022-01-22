@@ -183,8 +183,8 @@ main .text_wrapper p {
 
 main .text_wrapper .get_started_link {
   text-decoration: none;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   background: #f25f3a;
   padding: .75rem 1.5rem;
   border-radius: 3rem;
@@ -195,6 +195,8 @@ main .text_wrapper .get_started_link {
 
 main .text_wrapper .get_started_link:hover {
   opacity: 70%;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 @media screen and (min-width: 1024px) {
@@ -583,8 +585,8 @@ main .text_wrapper .get_started_link:hover {
   }
   .desktop_slider .get_started_link {
     text-decoration: none;
-    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background: #f25f3a;
     padding: .75rem 1.5rem;
     border-radius: 3rem;
@@ -593,6 +595,8 @@ main .text_wrapper .get_started_link:hover {
   }
   .desktop_slider .get_started_link:hover {
     opacity: 70%;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 
@@ -634,6 +638,8 @@ main .text_wrapper .get_started_link:hover {
 }
 
 .simplify a {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   cursor: pointer;
   background: #fff;
   color: #f25f3a;
@@ -642,6 +648,12 @@ main .text_wrapper .get_started_link:hover {
   text-decoration: none;
   padding: .75rem 1.25rem;
   border-radius: 3rem;
+}
+
+.simplify a:hover {
+  opacity: 85%;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 @media screen and (min-width: 1024px) {

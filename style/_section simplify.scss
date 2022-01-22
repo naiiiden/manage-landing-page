@@ -23,7 +23,7 @@
     }
 
     a {
-        cursor: pointer;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;        cursor: pointer;
         background: #fff;
         color: $bright-red;
         font-size: .8rem;
@@ -31,6 +31,11 @@
         text-decoration: none;
         padding: .75rem 1.25rem;
         border-radius: 3rem;
+
+        &:hover {
+            opacity: 85%;
+            transition: .2s;
+        }
 
     }
 }
