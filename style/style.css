@@ -472,6 +472,8 @@ main .text_wrapper .get_started_link:hover {
           align-items: center;
   gap: 1rem;
   padding: 1rem;
+  -webkit-animation: fade 1s;
+          animation: fade 1s;
 }
 
 .slider .slide .avatar {
@@ -485,6 +487,24 @@ main .text_wrapper .get_started_link:hover {
 
 .slider .slide p {
   color: #9095a7;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .slider .dots {

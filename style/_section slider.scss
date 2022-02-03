@@ -31,6 +31,13 @@
         p {
             color: $dark-grayish-blue;
         }
+
+        animation: fade 1s;
+        @keyframes fade {
+            from {opacity: 0}
+            to {opacity: 1}
+        }
+        
     }
     
     .dots {
