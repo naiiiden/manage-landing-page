@@ -348,8 +348,8 @@ img {
   color: hsl(228deg, 39%, 23%);
   font-weight: 700;
 }
-.slider .slide p {
-  color: hsl(227deg, 12%, 61%);
+.slider .slide blockquote {
+  color: #53576A;
 }
 @-webkit-keyframes fade {
   from {
