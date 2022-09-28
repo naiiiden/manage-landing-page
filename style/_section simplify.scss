@@ -1,5 +1,5 @@
 .simplify {
-    background: $bright-red;
+    background: #DD370E;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,6 @@
     gap: 1.5rem;
     text-align: center;
     position: relative;
-
     background-image: url("../images/bg-simplify-section-mobile.svg");
     background-repeat: no-repeat;
     background-size: 4.5rem;
@@ -25,7 +24,7 @@
     a {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;        cursor: pointer;
         background: #fff;
-        color: $bright-red;
+        color: #DD370E;
         font-size: .8rem;
         font-weight: 700;
         text-decoration: none;
