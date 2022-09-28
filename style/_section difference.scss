@@ -17,7 +17,8 @@
         }
 
         p {
-            color: $dark-grayish-blue;
+            // color: $dark-grayish-blue;
+            color: #53576A;
         }
     }
 
@@ -45,7 +46,7 @@
             gap: .5rem;
 
             span {
-                background: $bright-red;
+                background: #DD370E;
                 padding: .5rem 1rem;
                 border-radius: 3rem;
                 color: #fff;
@@ -64,7 +65,7 @@
 
         p {
             padding-right: 1.5rem;
-            color: $dark-grayish-blue;
+            color: #53576A;
         }
     }
 }

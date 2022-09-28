@@ -212,7 +212,7 @@ img {
   font-size: 1.75rem;
 }
 .difference .text_wrapper p {
-  color: hsl(227deg, 12%, 61%);
+  color: #53576A;
 }
 .difference .subsections_wrapper {
   display: flex;
@@ -237,7 +237,7 @@ img {
   gap: 0.5rem;
 }
 .difference .text_subsection .subsection_heading span {
-  background: hsl(12deg, 88%, 59%);
+  background: #DD370E;
   padding: 0.5rem 1rem;
   border-radius: 3rem;
   color: #fff;
@@ -252,7 +252,7 @@ img {
 }
 .difference .text_subsection p {
   padding-right: 1.5rem;
-  color: hsl(227deg, 12%, 61%);
+  color: #53576A;
 }
 
 @media screen and (min-width: 1024px) {
