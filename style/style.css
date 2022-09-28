@@ -144,7 +144,7 @@ img {
   color: hsl(228deg, 39%, 23%);
 }
 .main .text_wrapper p {
-  color: hsl(227deg, 12%, 61%);
+  color: #53576A;
 }
 .main .text_wrapper .get_started_link {
   text-decoration: none;
@@ -155,6 +155,7 @@ img {
   color: #fff;
   font-weight: 700;
   font-size: 0.8rem;
+  background: #DD370E;
 }
 .main .text_wrapper .get_started_link:hover {
   opacity: 70%;
