@@ -387,7 +387,7 @@ img {
 .slider .get_started_link {
   text-decoration: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  background: hsl(12deg, 88%, 59%);
+  background: #DD370E;
   padding: 0.75rem 1.5rem;
   border-radius: 3rem;
   color: #fff;
@@ -444,7 +444,7 @@ img {
     font-weight: 700;
   }
   .desktop_slider .slide_container p {
-    color: hsl(227deg, 12%, 61%);
+    color: #53576A;
   }
   .desktop_slider .get_started_link {
     text-decoration: none;
@@ -454,6 +454,7 @@ img {
     border-radius: 3rem;
     color: #fff;
     font-weight: 700;
+    background: #DD370E;
   }
   .desktop_slider .get_started_link:hover {
     opacity: 70%;

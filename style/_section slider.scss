@@ -16,7 +16,6 @@
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-        // background: #fafafa;
         padding: 1rem;
 
         .avatar {
@@ -64,7 +63,7 @@
     .get_started_link {
         text-decoration: none;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-        background: $bright-red;
+        background: #DD370E;
         padding: .75rem 1.5rem;
         border-radius: 3rem;
         color: #fff;
@@ -129,7 +128,7 @@
             }
     
             p {
-                color: $dark-grayish-blue;
+                color: #53576A;
             }
         }
 
@@ -140,6 +139,7 @@
             border-radius: 3rem;
             color: #fff;
             font-weight: 700;
+            background: #DD370E;
     
             &:hover {
                 opacity: 70%;
