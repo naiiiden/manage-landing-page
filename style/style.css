@@ -444,7 +444,7 @@ img {
     color: hsl(228deg, 39%, 23%);
     font-weight: 700;
   }
-  .desktop_slider .slide_container p {
+  .desktop_slider .slide_container blockquote {
     color: #53576A;
   }
   .desktop_slider .get_started_link {
